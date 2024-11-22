@@ -6,14 +6,15 @@
 // Usage examples:
 
 function palindrome(str) {
-    const cleanedStr =str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+   // const cleanedStr =str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
 
-    const reversedStr = cleanedStr.split('').reverse().join('');
+   const reversedStr = str.split('').reverse().join('');
 
-    return cleanedStr === reversedStr;
+   return str === reversedStr;
+   
 }
 
 console.log(palindrome('racecar')); // true
 console.log(palindrome('hello')); // false
 console.log(palindrome('a')); // true
-console.log(palindrome('madam')); // true
+console.log(palindrome('madam')); // true 

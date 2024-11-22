@@ -1,0 +1,510 @@
+// None primitive data types
+// Array
+// Object
+
+// Chalang 1
+/* const friends = [ "Khalid", "Abdulhamid", "Aminajon"];
+//                  0            1             2
+// in programing counting from "0"
+
+console.log(friends);*/
+
+///////////////////////////////////////////////////////////////
+
+/*// Chalang 2
+//     key       value 0     value 1       value 2     value 3  value 4      
+const friends = [ "Khalid", "Abdulhamid", "Aminajon", "Nasib", "Zahir"];
+//                 0            1             2         3        4
+// in programing counting from "0"
+friends[1] = "Mike";
+console.log(friends.length);*/
+
+///////////////////////////////////////////////////////////
+
+/* // Chalang 3
+const friends = [ "Khalid", "Abdulhamid", "Aminajon", "Nasib", "Zahir", ["joe", "John",]];
+//                  0            1             2         3        4        5       6
+// in programing counting from "0"
+friends[1] = "Abdulhamid";
+console.log(friends); */
+
+/////////////////////////////////////////////////////////
+
+ /*// Chalang 3
+const friends = [ "Khalid", "Abdulhamid", "Aminajon", "Nasib", "Zahir", ["joe", "John",]];
+//                  0            1             2         3        4        5       6
+// in programing counting from "0"
+friends[6] = "Abdulhamid";
+console.log(friends); */
+
+/////////////////////////////////////////////////////
+
+ /* // Chalang 4
+ const friends = [
+    {
+    "name": "Khalid",
+    "email": "zohirizohidsd@gmail.com",
+    "id": 1680571855298
+},
+{
+    "name": "Tohirjon",
+    "email": "zohirizohidsd@gmail.com",
+    "id": 1680571855298
+},
+{
+    "name": "Zahir",
+    "email": "zohirizohidsd@gmail.com",
+    "id": 1680571855298
+},
+{
+    "name": "Aminah",
+    "email": "zohirizohidsd@gmail.com",
+    "id": 1680571855298
+},
+{
+    "name": "Abdulhamid",
+    "email": "zohirizohidsd@gmail.com",
+    "id": 1680571855298
+},
+
+];
+    
+console.log(friends); */
+
+///////////////////////////////////////////////
+
+ /* // Chalang 5
+ const friends = ["Zahir", "Khalid", "Abdulhamid"];
+    
+console.log(friends.toString()); */
+
+// Zahir,Khalid,Abdulhamid < we geting this using ".toString"
+
+////////////////////////////////////////////////////
+
+/* // Chalang 6
+ const friends = ["Zahir", "Khalid", "Abdulhamid"];
+    
+console.log(friends); 
+// if we take off ".toString" we geting inside array the value
+// [ 'Zahir', 'Khalid', 'Abdulhamid' ] */
+
+/////////////////////////////////////////////////
+
+ /* // Chalang 7
+  const friends = ["Zahir", "Khalid", "Abdulhamid"];
+    
+  console.log(friends.join(" * "));
+  //  you can put anything inside (parameters) like (" - "), (" * "), what ever */
+
+  //////////////////////////////////////////////////////////////
+
+   /* // Chalang 8
+   const friends = ["Zahir", "Khalid", "Abdulhamid"];
+    
+   const lastValue = friends.pop();
+   console.log(lastValue);
+   // By using ".pop()", you can pul last value of inside array */
+
+   ////////////////////////////////////////////////////
+
+  /*  // Chalang 9
+    const friends = ["Zahir", "Khalid", "Abdulhamid"];
+    
+    friends.push("Amina");
+    console.log(friends);
+    // we are using ".push("......")", to add more value to the array */
+
+    //////////////////////////////////////////////////
+
+    /*  // Chalang 10
+    const friends = ["Zahir", "Khalid", "Abdulhamid"];
+    
+    friends.shift();
+    console.log(friends);
+    // we are using ".shift()" command for removing first "Zahir" out of array 
+    // [ 'Khalid', 'Abdulhamid' ] */
+
+    ///////////////////////////////////////////////
+
+      /*  // Chalang 11
+    const friends = ["Zahir", "Khalid", "Abdulhamid"];
+    
+    friends.unshift("Tohirjon");
+    console.log(friends);
+    // we are using ".unshift("Tohirjon")" command  adding value on a head of inside array 
+    // [ 'Tohirjon', 'Zahir', 'Khalid', 'Abdulhamid' ] */
+
+      /*  // Chalang 12
+    const friends = ["Zahir", "Khalid", "Abdulhamid"];
+    //                  0        1           2
+   delete friends[2];
+// by using "delete", than name of array "friends" removing a value from inside array
+    console.log(friends);
+    // [ 'Zahir', 'Khalid', <1 empty item> ] */
+
+    //////////////////////////////
+/* // Chalang 13;
+const users = {
+    "name": "Khalid",
+    "email": "zohirizohidsd@gmail.com",
+    "id": 1680571855298
+}
+
+users.name = "Tohirjon";
+// we are going to replace value of "Khalid" to "Tohirjon" then out pot it one
+
+console.log(users);
+// the result;
+{
+    name: 'Tohirjon',
+    email: 'zohirizohidsd@gmail.com',
+    id: 1680571855298
+  } */
+
+    //////////////////////////////////
+   /* // Chalang 14;
+const users = {
+    "name": "Khalid",
+    "email": "zohirizohidsd@gmail.com", // Dot notation
+    "id": 1680571855298
+}
+users.email = "nasibasharifzoda@gmail.com"
+ 
+console.log(users);
+// Result;
+{
+    name: 'Khalid',
+    email: 'nasibasharifzoda@gmail.com',
+    id: 1680571855298
+  } */
+
+  /*    // Chalang 15;
+const users = {
+    "name": "Khalid",
+    "email": "zohirizohidsd@gmail.com",
+    "id": 1680571855298
+}
+users["email"] = "nasibasharifzoda92@gmail.com"// Square brackets notation
+ 
+console.log(users);
+// Result;
+{
+    name: 'Khalid',
+    email: 'nasibasharifzoda92@gmail.com',
+    id: 1680571855298
+  } */
+
+       /*  // Chalang 16;
+const users = {
+    "first name": "Khalid",
+    "email": "zohirizohidsd@gmail.com",
+    "id": 1680571855298
+}
+users["email"] = "nasibasharifzoda92@gmail.com"// Square brackets notation
+ users["first name"] = "ZRZ Trans LLC"
+// Why we use "." or "[]" some times we will get 2 words or more with space 
+// in this case we use "["first name"]"
+console.log(users);
+// Result;
+{
+    'first name': 'ZRZ Trans LLC',
+    email: 'nasibasharifzoda92@gmail.com',
+    id: 1680571855298
+  } */
+
+
+  /*      // Chalang 17;
+const users = {
+    "my first name": "Khalid",
+ //  key  key  key     value   
+// if some one wants to chang the value use "[]"    
+    "email": "zohirizohidsd@gmail.com",
+    "id": 1680571855298
+}
+users["email"] = "nasibasharifzoda92@gmail.com"// Square brackets notation
+ users["my first name"] = "ZRZ Trans LLC"
+// Why we use "." or "[]" some times we will get 2 words or more with space 
+// in this case we use "["my first name"]"
+console.log(users);
+// Result;
+{
+    'my first name': 'ZRZ Trans LLC',
+    email: 'nasibasharifzoda92@gmail.com',
+    id: 1680571855298
+  } */
+
+          // Chalang 18;
+const users = {
+    "count": 77,
+    "list": [
+        {
+            "id": 4644,
+            "title": "Chicago Yankees Home",
+            "description": "Good apartment",
+            "address": "4528 w142nd st",
+            "city": "Chicago",
+            "state": "Illinois",
+            "zipCode": "59715",
+            "price": 240000,
+            "bedrooms": 4,
+            "bathrooms": 1,
+            "garage": 1,
+            "sqft": 2493,
+            "lotSize": 6666,
+            "createdAt": "2024-11-12T18:54:46.919Z",
+            "updatedAt": "2024-11-12T18:54:46.919Z",
+            "images": [
+                "https://unsplash.com/s/photos/house"
+            ],
+            "isPublished": true,
+            "realtor": {
+                "id": 6383,
+                "username": "Denis",
+                "user_surname": "Denis",
+                "email": "Denis04@gmail.com",
+                "bio": "",
+                "avatarUrl": "content/images/Screenshot2024-11-07at09.53.30cf63483f-ae87-474e-8225-77d149622ea5.png",
+                "phoneNumber": null,
+                "address": null,
+                "country": null,
+                "stateOrRegion": null,
+                "city": null,
+                "zipCode": null,
+                "about": null,
+                "isPublic": false,
+                "isRealtor": false,
+                "password": "$argon2id$v=19$m=4096,t=3,p=1$gmdW4DI5FWEKiKoVI7T0uw$gTe3F6+2lYavLFeimjT+/T1lAbPyOteurufHDuEHxCQ"
+            },
+            "favorite": [
+                {
+                    "id": 4032
+                },
+                {
+                    "id": 4037
+                }
+            ]
+        },
+        {
+            "id": 4643,
+            "title": "Denistest12",
+            "description": "The QA House",
+            "address": "2343 No Way st",
+            "city": "Dallas",
+            "state": "CA",
+            "zipCode": "90111",
+            "price": 301000,
+            "bedrooms": 4,
+            "bathrooms": 2,
+            "garage": 1,
+            "sqft": 924,
+            "lotSize": 4000,
+            "createdAt": "2024-11-12T18:01:32.137Z",
+            "updatedAt": "2024-11-12T18:01:32.137Z",
+            "images": [
+                "/static/media/3.3fa33cec43a8648aeb3a.jpeg"
+            ],
+            "isPublished": true,
+            "realtor": {
+                "id": 6383,
+                "username": "Denis",
+                "user_surname": "Denis",
+                "email": "Denis04@gmail.com",
+                "bio": "",
+                "avatarUrl": "content/images/Screenshot2024-11-07at09.53.30cf63483f-ae87-474e-8225-77d149622ea5.png",
+                "phoneNumber": null,
+                "address": null,
+                "country": null,
+                "stateOrRegion": null,
+                "city": null,
+                "zipCode": null,
+                "about": null,
+                "isPublic": false,
+                "isRealtor": false,
+                "password": "$argon2id$v=19$m=4096,t=3,p=1$gmdW4DI5FWEKiKoVI7T0uw$gTe3F6+2lYavLFeimjT+/T1lAbPyOteurufHDuEHxCQ"
+            },
+            "favorite": [
+                {
+                    "id": 4033
+                },
+                {
+                    "id": 4036
+                },
+                {
+                    "id": 4034
+                }
+            ]
+        },
+        {
+            "id": 4642,
+            "title": "Denistest11",
+            "description": "Good apartment",
+            "address": "4528 w 142nd st",
+            "city": "Joshua Tree",
+            "state": "IL",
+            "zipCode": "90292",
+            "price": 999999,
+            "bedrooms": 4,
+            "bathrooms": 2,
+            "garage": 1,
+            "sqft": 2000,
+            "lotSize": 5000,
+            "createdAt": "2024-11-12T18:01:15.231Z",
+            "updatedAt": "2024-11-12T18:01:15.231Z",
+            "images": [
+                "/static/media/3.3fa33cec43a8648aeb3a.jpeg"
+            ],
+            "isPublished": true,
+            "realtor": {
+                "id": 6383,
+                "username": "Denis",
+                "user_surname": "Denis",
+                "email": "Denis04@gmail.com",
+                "bio": "",
+                "avatarUrl": "content/images/Screenshot2024-11-07at09.53.30cf63483f-ae87-474e-8225-77d149622ea5.png",
+                "phoneNumber": null,
+                "address": null,
+                "country": null,
+                "stateOrRegion": null,
+                "city": null,
+                "zipCode": null,
+                "about": null,
+                "isPublic": false,
+                "isRealtor": false,
+                "password": "$argon2id$v=19$m=4096,t=3,p=1$gmdW4DI5FWEKiKoVI7T0uw$gTe3F6+2lYavLFeimjT+/T1lAbPyOteurufHDuEHxCQ"
+            },
+            "favorite": [
+                {
+                    "id": 4035
+                }
+            ]
+        },
+        {
+            "id": 4641,
+            "title": "Denistest10",
+            "description": "Sunny and spacious 4 bed, 1 bath home in the very desirable Galewood. Well maintained home with low taxes. Close to shopping, bars, restaurants, and entertainment. Borders Oak Park. Come see it oneday :)",
+            "address": "1 Joshua Tree st",
+            "city": "Hawthorne",
+            "state": "CA",
+            "zipCode": "59715",
+            "price": 1000000,
+            "bedrooms": 5,
+            "bathrooms": 2,
+            "garage": 1,
+            "sqft": 1234,
+            "lotSize": 2,
+            "createdAt": "2024-11-12T18:00:56.639Z",
+            "updatedAt": "2024-11-12T18:00:56.639Z",
+            "images": [
+                "/static/media/1.44b525e135229f361e09.jpeg"
+            ],
+            "isPublished": true,
+            "realtor": {
+                "id": 6383,
+                "username": "Denis",
+                "user_surname": "Denis",
+                "email": "Denis04@gmail.com",
+                "bio": "",
+                "avatarUrl": "content/images/Screenshot2024-11-07at09.53.30cf63483f-ae87-474e-8225-77d149622ea5.png",
+                "phoneNumber": null,
+                "address": null,
+                "country": null,
+                "stateOrRegion": null,
+                "city": null,
+                "zipCode": null,
+                "about": null,
+                "isPublic": false,
+                "isRealtor": false,
+                "password": "$argon2id$v=19$m=4096,t=3,p=1$gmdW4DI5FWEKiKoVI7T0uw$gTe3F6+2lYavLFeimjT+/T1lAbPyOteurufHDuEHxCQ"
+            },
+            "favorite": [
+                {
+                    "id": 4038
+                }
+            ]
+        },
+        {
+            "id": 4640,
+            "title": "Denistest9",
+            "description": "Desert Land For Sale",
+            "address": "89803 Cuthbert Rd",
+            "city": "Las Vegas",
+            "state": "IA",
+            "zipCode": "90963",
+            "price": 799999,
+            "bedrooms": 5,
+            "bathrooms": 2,
+            "garage": 1,
+            "sqft": 2060,
+            "lotSize": 5000,
+            "createdAt": "2024-11-12T18:00:37.108Z",
+            "updatedAt": "2024-11-12T18:00:37.108Z",
+            "images": [
+                "/static/media/1.44b525e135229f361e09.jpeg"
+            ],
+            "isPublished": true,
+            "realtor": {
+                "id": 6383,
+                "username": "Denis",
+                "user_surname": "Denis",
+                "email": "Denis04@gmail.com",
+                "bio": "",
+                "avatarUrl": "content/images/Screenshot2024-11-07at09.53.30cf63483f-ae87-474e-8225-77d149622ea5.png",
+                "phoneNumber": null,
+                "address": null,
+                "country": null,
+                "stateOrRegion": null,
+                "city": null,
+                "zipCode": null,
+                "about": null,
+                "isPublic": false,
+                "isRealtor": false,
+                "password": "$argon2id$v=19$m=4096,t=3,p=1$gmdW4DI5FWEKiKoVI7T0uw$gTe3F6+2lYavLFeimjT+/T1lAbPyOteurufHDuEHxCQ"
+            },
+            "favorite": []
+        },
+        {
+            "id": 4639,
+            "title": "Denistest8",
+            "description": "Great home",
+            "address": "8985 S Durango dr",
+            "city": "Bozeman",
+            "state": "CA",
+            "zipCode": "90111",
+            "price": 7000000,
+            "bedrooms": 4,
+            "bathrooms": 2,
+            "garage": 1,
+            "sqft": 4000,
+            "lotSize": 2,
+            "createdAt": "2024-11-12T18:00:15.073Z",
+            "updatedAt": "2024-11-12T18:00:15.073Z",
+            "images": [
+                "/static/media/4.7b41bdc0126a7e58e56e.jpeg"
+            ],
+            "isPublished": true,
+            "realtor": {
+                "id": 6383,
+                "username": "Denis",
+                "user_surname": "Denis",
+                "email": "Denis04@gmail.com",
+                "bio": "",
+                "avatarUrl": "content/images/Screenshot2024-11-07at09.53.30cf63483f-ae87-474e-8225-77d149622ea5.png",
+                "phoneNumber": null,
+                "address": null,
+                "country": null,
+                "stateOrRegion": null,
+                "city": null,
+                "zipCode": null,
+                "about": null,
+                "isPublic": false,
+                "isRealtor": false,
+                "password": "$argon2id$v=19$m=4096,t=3,p=1$gmdW4DI5FWEKiKoVI7T0uw$gTe3F6+2lYavLFeimjT+/T1lAbPyOteurufHDuEHxCQ"
+            },
+            "favorite": []
+        }
+    ]
+}
+// I cooped all info from "Delek Homes", website 
+console.log(users);
+// Result;

@@ -3,7 +3,7 @@
 // Write a function to find the largest number in the array.
 // Usage examples:
 function findLargestNumber(arr) {
-    let largestNumber = arr[0];
+    let largestNumber=arr[0];
     for (let i = 1; i < arr.length; i++) {
         if (arr[i] > largestNumber) {
             largestNumber = arr[i];
