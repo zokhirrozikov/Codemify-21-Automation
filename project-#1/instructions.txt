@@ -1,0 +1,5 @@
+Should log in with existing account as an Admin (you can use your own user with any role)
+Should log out
+Should register a new user account
+Should not register with an already existing email account
+Should not register without filling in requred fields
