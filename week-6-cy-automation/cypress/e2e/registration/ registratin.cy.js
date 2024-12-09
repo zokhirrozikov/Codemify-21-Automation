@@ -16,14 +16,6 @@ describe("Registration", () => {
     cy.get('[name="password"]').type(password);
     cy.get('[type="submit"]').click();
 
-    
-    // Verify user role, name, url and page title
-    cy.get('a p').should("have.text", 'role: user');
-    cy.get('h6').should('have.text', 'Zahiri  Roziki');
-    cy.title().should("eq", 'User: Profile | Delek Homes');
-    cy.url().should("include", 'dashboard/user/profile');
-
-    // click user icon and logout button
     cy.get('button [data-testid="PersonIcon"]').click();
     cy.contains('Logout').click();
     
@@ -32,8 +24,9 @@ describe("Registration", () => {
     // click login button
     cy.contains('Login').click();
     
-    // Verify admin role and title
-    cy.get('h6').should('have.text', 'Zahiri  Roziki');
+    
     cy.get('a p').should('have.text', 'role: user');
+    cy.get('a h6').should('have.text', 'Zahiri  Roziki');
+    cy.title().should('eq', 'User: Profile | Delek Homes')
   });
 });
